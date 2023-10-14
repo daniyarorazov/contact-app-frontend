@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    margin: 50px;
+}
+
+.App .card-block {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.App .card-block button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background: #2c66ff;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.App .card-block button:hover {
+    background: #0036c0;
+}
